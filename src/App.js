@@ -5,7 +5,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <h1>Welcome to the NEW Lia's Website</h1>
+      <h1>WELCOME TO MEPHOBIA</h1>
     );
   }
 }

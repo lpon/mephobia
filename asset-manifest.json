@@ -1,7 +1,7 @@
 {
   "main.css": "/mephobia/static/css/main.67af23a8.chunk.css",
-  "main.js": "/mephobia/static/js/main.b1f4cf28.chunk.js",
-  "main.js.map": "/mephobia/static/js/main.b1f4cf28.chunk.js.map",
+  "main.js": "/mephobia/static/js/main.1ec1c421.chunk.js",
+  "main.js.map": "/mephobia/static/js/main.1ec1c421.chunk.js.map",
   "static/js/1.4a34e45d.chunk.js": "/mephobia/static/js/1.4a34e45d.chunk.js",
   "static/js/1.4a34e45d.chunk.js.map": "/mephobia/static/js/1.4a34e45d.chunk.js.map",
   "runtime~main.js": "/mephobia/static/js/runtime~main.fc48e314.js",
@@ -9,6 +9,6 @@
   "static/media/logo.svg": "/mephobia/static/media/logo.5d5d9eef.svg",
   "static/css/main.67af23a8.chunk.css.map": "/mephobia/static/css/main.67af23a8.chunk.css.map",
   "index.html": "/mephobia/index.html",
-  "precache-manifest.7e1f2916a400a40c2043dc24eb097a5e.js": "/mephobia/precache-manifest.7e1f2916a400a40c2043dc24eb097a5e.js",
+  "precache-manifest.8a83950754402dac7de570920f01d140.js": "/mephobia/precache-manifest.8a83950754402dac7de570920f01d140.js",
   "service-worker.js": "/mephobia/service-worker.js"
 }

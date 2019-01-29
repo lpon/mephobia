@@ -24,19 +24,19 @@ class App extends Component {
         
           <div className="container">
             <ul> 
-              <li><Link to="/home">Home</Link></li>
-              <li><Link to="/blog">Blog</Link></li>
-              <li><Link to="/art">Art</Link></li>
-              <li><Link to="/photography">Photography</Link></li>
-              <li><Link to="/music">Music</Link></li>
+              <li><Link to="/mephobia">Home</Link></li>
+              <li><Link to="/mephobia/blog">Blog</Link></li>
+              <li><Link to="/mephobia/art">Art</Link></li>
+              <li><Link to="/mephobia/photography">Photography</Link></li>
+              <li><Link to="/mephobia/music">Music</Link></li>
             </ul>
           </div>
 
-          <Route path="/home" component={Home}/>
-          <Route path="/blog" component={Blog}/>
-          <Route path="/art" component={Art}/>
-          <Route path="/photography" component={Photography}/>
-          <Route path="/music" component={Music}/>
+          <Route path="/mephobia" exact={true} component={Home}/>
+          <Route path="/mephobia/blog" exact={true} component={Blog}/>
+          <Route path="/mephobia/art" exact={true} component={Art}/>
+          <Route path="/mephobia/photography" exact={true} component={Photography}/>
+          <Route path="/mephobia/music" exact={true} component={Music}/>
 
 
         </div>

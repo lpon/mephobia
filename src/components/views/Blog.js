@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
+import BlogPost from '../BlogPost';
+
 
 class Blog extends Component {
     render() {
         return (
-            <h1>Blog</h1>
+            <BlogPost
+            title={"わあ！"}
+            date={"January 31, 2019"}
+            post={"すごいね!"}/>
         );
     }
 }

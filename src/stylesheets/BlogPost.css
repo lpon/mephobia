@@ -1,0 +1,14 @@
+.blogPost { 
+    text-align: left;
+    margin: 20px 40px 40px 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.blogPost .title { 
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.blogPost .date { 
+    font-size: 13px;
+}

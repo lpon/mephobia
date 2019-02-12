@@ -8,16 +8,17 @@
 }
 
 .coverArt {
-    border-radius: 50%;
     width: 30%;
     min-width: 350px;
+    border: 3px solid rgb(255, 0, 200);
+    border-radius: 40px;
 }
 
 .albumTitle{
     font-size: 35px;
     background-color: rgb(0, 0, 0);
     padding-top: 15px;
-    padding-bottom: 0px;
+    padding-bottom: 1px;
     /* font-variant: small-caps; */
     letter-spacing: 10px;
 }

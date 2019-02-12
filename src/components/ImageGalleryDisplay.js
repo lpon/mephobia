@@ -65,7 +65,6 @@ class ImageGalleryDisplay extends Component {
     render() {
         return (
             <div>
-                <br/>
                 <Gallery 
                 photos={this.props.images}
                 onClick={this.openLightbox}
@@ -78,8 +77,7 @@ class ImageGalleryDisplay extends Component {
                 onClickNext={this.goToNext}
                 currentImage={this.state.currentImage}
                 isOpen={this.state.lightboxIsOpen}
-                />
-            
+                />            
             </div>
         );
     }

@@ -6,8 +6,8 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <br/>
-                <img src={homepageImage}></img>
+                <h1 className="pageHeader">〜(￣▽￣〜)ヾ(*д*)ﾉ゛(〜￣▽￣)〜</h1>
+=                <img src={homepageImage}></img>
             </div>
         );
     }

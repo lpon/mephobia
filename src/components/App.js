@@ -12,7 +12,7 @@ import helloWorld from '../assets/helloworld.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../stylesheets/App.css';
 
-import { Nav } from 'react-bootstrap';
+import { Nav, Navbar } from 'react-bootstrap';
 import { 
   BrowserRouter as Router, 
   Route, 
@@ -30,14 +30,14 @@ class App extends Component {
                     <br/>
                 </div>
 
-                <Nav 
-                justify variant="tabs">
-                    <Nav.Item><Nav.Link href="/mephobia">Home</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href="/mephobia/blog">Blog</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href="/mephobia/art">Art</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href="/mephobia/photography">Photography</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href="/mephobia/projects">Projects</Nav.Link></Nav.Item>
-                    <Nav.Item><Nav.Link href="/mephobia/music">Music</Nav.Link></Nav.Item>
+                <Nav
+                justify variant="tabs" className="customNav">
+                    <Nav.Item><Nav.Link className="customLink" href="/mephobia">Home</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link className="customLink" href="/mephobia/projects">Projects</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link className="customLink" href="/mephobia/photography">Photography</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link className="customLink" href="/mephobia/art">Art</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link className="customLink" href="/mephobia/music">Music</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link className="customLink" href="/mephobia/blog">Blog</Nav.Link></Nav.Item>
                 </Nav>
 
                 <Route path="/mephobia" exact={true} component={Home}/>
@@ -46,6 +46,8 @@ class App extends Component {
                 <Route path="/mephobia/photography" exact={true} component={Photography}/>
                 <Route path="/mephobia/projects" exact={true} component={Projects}/>
                 <Route path="/mephobia/music" exact={true} component={Music}/>
+
+                <Navbar className="copyrightFooter" fixed="bottom">Copyright © Lia Pon 2019. All rights reserved.</Navbar>
             </div>
         </Router>
     );

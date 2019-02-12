@@ -1,0 +1,31 @@
+.container {
+    border-radius: 50%;
+    background-color: rgba(159, 255, 34, 0.514);
+    padding: 20px;
+    margin: 30px 30px 30px 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-variant: small-caps;
+}
+
+.coverArt {
+    border-radius: 50%;
+    width: 30%;
+    min-width: 350px;
+}
+
+.albumTitle{
+    font-size: 35px;
+    background-color: rgb(0, 0, 0);
+    padding-top: 15px;
+    padding-bottom: 0px;
+    /* font-variant: small-caps; */
+    letter-spacing: 10px;
+}
+
+.song {
+    font-size: 13px;
+    letter-spacing: 6px;
+
+}
+
+

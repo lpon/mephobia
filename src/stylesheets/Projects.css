@@ -1,0 +1,19 @@
+.projectList {
+    text-align: left;
+    margin: 30px 30px 30px 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(1, 20, 20);
+    list-style-type: none;
+}
+
+.projectList .projectName {
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    padding: 0px;
+    text-decoration: none;
+}

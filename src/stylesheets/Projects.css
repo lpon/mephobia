@@ -5,15 +5,25 @@
     padding-bottom: 30px;
     padding-left: 50px;
     padding-right: 50px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(1, 20, 20);
     list-style-type: none;
 }
 
 .projectList .projectName {
     text-align: left;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 0px;
+    text-decoration: none;
+    letter-spacing: 5px;
+    font-weight: 100;
+}
+
+.projectLink {
+    text-align: left;
     font-size: 15px;
     padding: 0px;
     text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: 100;
 }

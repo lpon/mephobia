@@ -26,7 +26,7 @@ class App extends Component {
             <div className="App">
                 <div className='logo'>
                 <br/>
-                    <img src={helloWorld}></img>
+                    <img src={helloWorld} alt="Hellow World"></img>
                 </div>
 
                 <Nav

@@ -12,7 +12,6 @@ class Album extends Component {
 
         songs.forEach(song => {
             // console.log(songs[i]);
-            var newSong = song.src;
             tracks.push(<h2 className="song">{song.title}  by  {song.artist}</h2>);
             // tracks.push(<h2 className="artist">{songs[i].artist}</h2>);
             tracks.push(<ReactAudioPlayer className="audioPlayer" src={song.src} controls/>);
@@ -32,7 +31,7 @@ class Album extends Component {
                 <br/>
                 <h1 className="albumTitle">{this.props.title}</h1>
                 <br/>
-                <img className="coverArt" src={this.props.coverArt}></img>
+                <img className="coverArt" src={this.props.coverArt} alt="Beautiful Cover Art"></img>
                 <br/>
                 <br/>
                 {tracks}

@@ -10,7 +10,7 @@ class Home extends Component {
                 {/* <h1 className="pageHeader">〜(￣▽￣〜)ヾ(*д*)ﾉ゛(〜￣▽￣)〜</h1> */}
                 <br/>
                 <br/>
-                <img className="homepageImage" src={homepageImage}></img>
+                <img className="homepageImage" src={homepageImage} alt="Virtual Bedroom"></img>
             </div>
         );
     }

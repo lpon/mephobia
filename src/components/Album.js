@@ -10,19 +10,19 @@ class Album extends Component {
 
         console.log(songs);
 
-        for (var i = 0; i < songs.length; i++) {
-            console.log(songs[i].src);
-            var newSong = songs[i].src;
-            tracks.push(<h2 className="song">{songs[i].title}  by  {songs[i].artist}</h2>);
+        songs.forEach(song => {
+            // console.log(songs[i]);
+            var newSong = song.src;
+            tracks.push(<h2 className="song">{song.title}  by  {song.artist}</h2>);
             // tracks.push(<h2 className="artist">{songs[i].artist}</h2>);
-            tracks.push(<ReactAudioPlayer className="audioPlayer" src={songs[i].src} controls/>);
+            tracks.push(<ReactAudioPlayer className="audioPlayer" src={song.src} controls/>);
             tracks.push(<br/>);
             tracks.push(<br/>);
-        }
+        });
 
-        console.log(tracks)
+        // console.log(tracks)
 
-        // for (const song in songs) {
+        // for (var song in songs) {
         //     console.log(song);
         //     // tracks.push(<ReactAudioPlayer src={songs.src} constrols/>)
         // }

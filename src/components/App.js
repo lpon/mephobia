@@ -25,9 +25,8 @@ class App extends Component {
         <Router>
             <div className="App">
                 <div className='logo'>
-                    <br/>
+                <br/>
                     <img src={helloWorld}></img>
-                    <br/>
                 </div>
 
                 <Nav

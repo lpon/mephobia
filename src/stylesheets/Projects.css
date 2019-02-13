@@ -12,7 +12,7 @@
 
 .projectList .projectName {
     text-align: left;
-    font-size: 20px;
+    font-size: 15px;
     padding: 0px;
     text-decoration: none;
     letter-spacing: 5px;
@@ -21,7 +21,7 @@
 
 .projectLink {
     text-align: left;
-    font-size: 15px;
+    font-size: 10px;
     padding: 0px;
     text-decoration: none;
     letter-spacing: 3px;

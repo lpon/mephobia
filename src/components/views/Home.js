@@ -7,7 +7,9 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <h1 className="pageHeader">〜(￣▽￣〜)ヾ(*д*)ﾉ゛(〜￣▽￣)〜</h1>
+                {/* <h1 className="pageHeader">〜(￣▽￣〜)ヾ(*д*)ﾉ゛(〜￣▽￣)〜</h1> */}
+                <br/>
+                <br/>
                 <img className="homepageImage" src={homepageImage}></img>
             </div>
         );

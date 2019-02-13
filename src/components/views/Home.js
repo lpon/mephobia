@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import homepageImage from '../../assets/homepage.png';
+import bedroom from '../../assets/homepage.png';
+import bffPicture from '../../assets/soniaandlia_fallstreak.jpg';
 import '../../stylesheets/Home.css';
 
 
@@ -7,10 +8,13 @@ class Home extends Component {
     render() {
         return (
             <div>
-                {/* <h1 className="pageHeader">〜(￣▽￣〜)ヾ(*д*)ﾉ゛(〜￣▽￣)〜</h1> */}
+                <h1 className="homepageHeader">My Virtual Bedroom</h1>
+                <img className="homepageImage" src={bedroom} alt="Virtual Bedroom"></img>
+                <h1 className="homepageHeader">Me and My Real NOT Virtual BFF, Sonia</h1>
+                <img className="homepageImage" src={bffPicture} alt="Me and My Bff, Sonia"></img>
                 <br/>
                 <br/>
-                <img className="homepageImage" src={homepageImage} alt="Virtual Bedroom"></img>
+                <br/>
             </div>
         );
     }

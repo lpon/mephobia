@@ -33,8 +33,14 @@ img {
 }
 
 .customNav .customLink:hover { 
-  color: rgb(248, 60, 239);
+  color: black;
 }
+
+/* .customNav .customLink:active { 
+  background-color: black;
+  color: rgb(248, 60, 239);
+} */
+
 
 .copyrightFooter {
   justify-content: center;

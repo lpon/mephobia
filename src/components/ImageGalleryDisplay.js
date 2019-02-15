@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Gallery from 'react-photo-gallery';
 import Lightbox from 'react-images';
 
+
 class ImageGalleryDisplay extends Component {
     constructor(props) {
         super(props);

@@ -5,6 +5,7 @@ import artwork3 from "../assets/artwork/Joker.jpg";
 import artwork4 from "../assets/artwork/LIghtbulb.jpg";
 import artwork5 from "../assets/artwork/Rorschach.JPG";
 
+
 const artwork = [
     {src: artwork0, caption: "Anakin.jpg", width: 3641, height: 2568},
     {src: artwork1, caption: "AnnaFischer.jpg", width: 2679, height: 3456},
@@ -13,6 +14,5 @@ const artwork = [
     {src: artwork4, caption: "LIghtbulb.jpg", width: 4157, height: 2771},
     {src: artwork5, caption: "Rorschach.JPG", width: 3456, height: 5184},
 ];
-
 
 export default artwork;

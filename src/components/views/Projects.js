@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import '../../stylesheets/Projects.css';
 
+
 class Projects extends Component {
     render() {
         return (
             <div>
-                <h1 className="pageHeader">For Occasional Programming Projects, I have more they are just academic and I can't post them on github but they are very cool and complex 
-                <br/> 
-                ヽ(。_°)ノ</h1>
+                <h1 className="pageHeader">For Occasional Programming Projects, I have more they are just academic and 
+                I can't post them on github but they are very cool and complex<br/>ヽ(。_°)ノ</h1>
                 
                 <div className="projectList">
                     <div className="projectName">WordBank (iOS Mobile App)</div>

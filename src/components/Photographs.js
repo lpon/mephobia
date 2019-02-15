@@ -79,6 +79,7 @@ import image77 from "../assets/images/weirdPinkBlueMountainBuilding-Taiwan-20170
 import image78 from "../assets/images/workeragakhan-TO-20160901.jpg";
 import image79 from "../assets/images/yellowHEART-Taiwan-20170828.png";
 
+
 const photographs = [
     {src: image0, caption: "FSUMMER-Miami-2017-11-13.png", width: 5184, height: 3456},
     {src: image1, caption: "HOLYbeon-Taiwan-20171114.png", width: 4599, height: 3066},

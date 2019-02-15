@@ -19,7 +19,6 @@ import { Nav, Navbar } from 'react-bootstrap';
 // } from 'react-router-dom';
 
 
-
 class App extends Component {
     
     constructor(props) { 
@@ -45,7 +44,6 @@ class App extends Component {
         this.setPageToArt = this.setPageToArt.bind(this);
         this.setPageToMusic = this.setPageToMusic.bind(this);
         this.setPageToBlog = this.setPageToBlog.bind(this);
-        
     }
     
     setCurrentPage(page) { 
@@ -54,7 +52,6 @@ class App extends Component {
             currentPage: page
         });
     }
-    
     
     setPageToHome() { 
         this.setCurrentPage("Home");
@@ -81,14 +78,13 @@ class App extends Component {
     }
     
     renderComponentForCurrentPage() { 
-        console.log("current page ", this.state.currentPage);
         return this.pagenameToComponent[this.state.currentPage];
 
     }
 
     render() {
         var pageForRender = this.renderComponentForCurrentPage();
-        console.log(pageForRender);
+
         return (
             <div className="App">
                 <div className='logo'>
@@ -147,7 +143,7 @@ class App extends Component {
                 <Navbar className="copyrightFooter" fixed="bottom">Copyright © Lia Pon 2019. All rights reserved.</Navbar>
             </div>
         );
-  }
+    }
 }
 
 export default App;

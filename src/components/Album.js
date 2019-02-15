@@ -8,8 +8,6 @@ class Album extends Component {
         const songs = this.props.trackList;
         const tracks = []
 
-        console.log(songs);
-
         songs.forEach(song => {
             // console.log(songs[i]);
             tracks.push(<h2 className="song">{song.title}  by  {song.artist}</h2>);
@@ -39,7 +37,6 @@ class Album extends Component {
             </div>
         );
     }
-
 }
 
 export default Album;

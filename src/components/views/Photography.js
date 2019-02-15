@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ImageGalleryDisplay from '../ImageGalleryDisplay';
 import photographs from '../Photographs';
 
+
 class Photography extends Component {
     render() {
         return (

@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import ImageGalleryDisplay from '../ImageGalleryDisplay';
 import artwork from '../Artwork';
 
-class Art extends Component {
 
+class Art extends Component {
     render() {
         return (
             <div>

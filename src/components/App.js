@@ -88,8 +88,9 @@ class App extends Component {
         return (
             <div className="App">
                 <div className='logo'>
-                <br/>
+                    <br/>
                     <img src={helloWorld} alt="Hellow World"></img>
+                    <br/>
                 </div>
 
 

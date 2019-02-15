@@ -22,7 +22,7 @@ class Projects extends Component {
                     <a className="projectLink" href="https://github.com/lpon/study-buddy">GitHub source</a>
                     <br/>
                     <br/>
-                    <div className="projectName">Mephobia (ReactJS Website)</div>
+                    <div className="projectName">Mephobia (React.js Website)</div>
                     <a className="projectLink" href="https://github.com/lpon/mephobia">GitHub source</a>
                 </div>
             </div>

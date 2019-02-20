@@ -10,7 +10,7 @@ do
     w=$(identify -format "%w" /Users/Lia/Development/website/mephobia-react-app/src/assets/artwork/$basename)
     h=$(identify -format "%h" /Users/Lia/Development/website/mephobia-react-app/src/assets/artwork/$basename)
 
-    echo "import artwork$number from \"../../assets/artwork/$basename\";"
+    echo "import artwork$number from \"../assets/artwork/$basename\";"
     number=number+1
 
 done

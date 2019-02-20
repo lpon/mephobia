@@ -4,7 +4,7 @@ import artwork2 from "../assets/artwork/Deadpool.jpg";
 import artwork3 from "../assets/artwork/Joker.jpg";
 import artwork4 from "../assets/artwork/LIghtbulb.jpg";
 import artwork5 from "../assets/artwork/Rorschach.JPG";
-import artwork6 from "../assets/artwork/SailorMoon_021919";
+import artwork6 from "../assets/artwork/SailorMoon_021919.png";
 
 
 

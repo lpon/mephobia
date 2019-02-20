@@ -1,11 +1,11 @@
-import artwork0 from "../../assets/artwork/Anakin.jpg";
-import artwork1 from "../../assets/artwork/AnnaFischer.jpg";
-import artwork2 from "../../assets/artwork/Aoi_021919.png";
-import artwork3 from "../../assets/artwork/Deadpool.jpg";
-import artwork4 from "../../assets/artwork/Joker.jpg";
-import artwork5 from "../../assets/artwork/LIghtbulb.jpg";
-import artwork6 from "../../assets/artwork/Rorschach.JPG";
-import artwork7 from "../../assets/artwork/SailorMoon_021919.png";
+import artwork0 from "../assets/artwork/Anakin.jpg";
+import artwork1 from "../assets/artwork/AnnaFischer.jpg";
+import artwork2 from "../assets/artwork/Aoi_021919.png";
+import artwork3 from "../assets/artwork/Deadpool.jpg";
+import artwork4 from "../assets/artwork/Joker.jpg";
+import artwork5 from "../assets/artwork/LIghtbulb.jpg";
+import artwork6 from "../assets/artwork/Rorschach.JPG";
+import artwork7 from "../assets/artwork/SailorMoon_021919.png";
 
 
 const artwork = [

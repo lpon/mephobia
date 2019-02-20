@@ -4,6 +4,8 @@ import artwork2 from "../assets/artwork/Deadpool.jpg";
 import artwork3 from "../assets/artwork/Joker.jpg";
 import artwork4 from "../assets/artwork/LIghtbulb.jpg";
 import artwork5 from "../assets/artwork/Rorschach.JPG";
+import artwork6 from "../assets/artwork/SailorMoon_021919";
+
 
 
 const artwork = [
@@ -13,6 +15,7 @@ const artwork = [
     {src: artwork3, caption: "Joker.jpg", width: 500, height: 672},
     {src: artwork4, caption: "LIghtbulb.jpg", width: 4157, height: 2771},
     {src: artwork5, caption: "Rorschach.JPG", width: 3456, height: 5184},
+    {src: artwork6, caption: "SailorMoon_021919.png", width: 1766, height: 2356},
 ];
 
 export default artwork;

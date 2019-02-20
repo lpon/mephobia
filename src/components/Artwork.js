@@ -9,13 +9,13 @@ import artwork6 from "../assets/artwork/SailorMoon_021919.png";
 
 
 const artwork = [
+    {src: artwork6, caption: "SailorMoon_021919.png", width: 1766, height: 2356},
     {src: artwork0, caption: "Anakin.jpg", width: 3641, height: 2568},
     {src: artwork1, caption: "AnnaFischer.jpg", width: 2679, height: 3456},
     {src: artwork2, caption: "Deadpool.jpg", width: 1023, height: 1362},
     {src: artwork3, caption: "Joker.jpg", width: 500, height: 672},
     {src: artwork4, caption: "LIghtbulb.jpg", width: 4157, height: 2771},
     {src: artwork5, caption: "Rorschach.JPG", width: 3456, height: 5184},
-    {src: artwork6, caption: "SailorMoon_021919.png", width: 1766, height: 2356},
 ];
 
 export default artwork;

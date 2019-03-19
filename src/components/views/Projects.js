@@ -26,12 +26,16 @@ class Projects extends Component {
                     <a className="projectLink" href="https://github.com/lpon/mephobia">GitHub source</a>
                     <br/>
                     <br/>
-                    <div className="projectName">Zombie Cat Conga (Unity Game)</div>
+                    <div className="projectName">Zombie Cat Conga (Unity)</div>
                     <a className="projectLink" href="https://github.com/lpon/zombieCatConga">GitHub source</a>
                     <br/>
                     <br/>
-                    <div className="projectName">CubeDash (Unity Game)</div>
+                    <div className="projectName">CubeDash (Unity)</div>
                     <a className="projectLink" href="https://github.com/lpon/CubeDash">GitHub source</a>
+                    <br/>
+                    <br/>
+                    <div className="projectName">FuwaFuwa (Unity)</div>
+                    <a className="projectLink" href="https://github.com/lpon/FuwaFuwa">GitHub source</a>
                 </div>
             </div>
         );

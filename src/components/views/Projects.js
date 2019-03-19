@@ -24,6 +24,14 @@ class Projects extends Component {
                     <br/>
                     <div className="projectName">Mephobia (React.js Website)</div>
                     <a className="projectLink" href="https://github.com/lpon/mephobia">GitHub source</a>
+                    <br/>
+                    <br/>
+                    <div className="projectName">Zombie Cat Conga (Unity Game)</div>
+                    <a className="projectLink" href="https://github.com/lpon/zombieCatConga">GitHub source</a>
+                    <br/>
+                    <br/>
+                    <div className="projectName">CubeDash (Unity Game)</div>
+                    <a className="projectLink" href="https://github.com/lpon/CubeDash">GitHub source</a>
                 </div>
             </div>
         );

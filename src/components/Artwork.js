@@ -1,6 +1,5 @@
 import artwork0 from "../assets/artwork/Anakin.jpg";
 import artwork1 from "../assets/artwork/AnnaFischer.jpg";
-import artwork2 from "../assets/artwork/ChineseGirl_040819.png";
 import artwork3 from "../assets/artwork/Deadpool.jpg";
 import artwork4 from "../assets/artwork/Joker.jpg";
 import artwork5 from "../assets/artwork/LIghtbulb.jpg";
@@ -19,7 +18,6 @@ const artwork = [
     {src: artwork0, caption: "Anakin.jpg", width: 2913, height: 2054},
     {src: artwork10, caption: "SailorMoon_021919.png", width: 1750, height: 2334},
     {src: artwork5, caption: "LIghtbulb.jpg", width: 3326, height: 2217},
-    {src: artwork2, caption: "ChineseGirl_040819.png", width: 2676, height: 2006},
     {src: artwork8, caption: "Rorschach.JPG", width: 2765, height: 4147},
     {src: artwork7, caption: "PinkHairedGirl_032719.png", width: 1942, height: 2590},
 ];

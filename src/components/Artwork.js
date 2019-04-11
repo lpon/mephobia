@@ -11,13 +11,13 @@ import artwork9 from "../assets/artwork/SadGirl_040619.png";
 import artwork10 from "../assets/artwork/SailorMoon_021919.png";
 
 const artwork = [
-    {src: artwork6, caption: "LuVan_041119.png", width: 2536, height: 1900},
-    {src: artwork0, caption: "Anakin.jpg", width: 2913, height: 2054},
     {src: artwork9, caption: "SadGirl_040619.png", width: 1787, height: 2384},
+    {src: artwork4, caption: "Joker.jpg", width: 400, height: 538},
+    {src: artwork6, caption: "LuVan_041119.png", width: 2536, height: 1900},
     {src: artwork1, caption: "AnnaFischer.jpg", width: 2143, height: 2765},
     {src: artwork3, caption: "Deadpool.jpg", width: 818, height: 1090},
+    {src: artwork0, caption: "Anakin.jpg", width: 2913, height: 2054},
     {src: artwork10, caption: "SailorMoon_021919.png", width: 1750, height: 2334},
-    {src: artwork4, caption: "Joker.jpg", width: 400, height: 538},
     {src: artwork5, caption: "LIghtbulb.jpg", width: 3326, height: 2217},
     {src: artwork2, caption: "ChineseGirl_040819.png", width: 2676, height: 2006},
     {src: artwork8, caption: "Rorschach.JPG", width: 2765, height: 4147},

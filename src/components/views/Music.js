@@ -19,8 +19,6 @@ class Music extends Component {
                 <h1 className="pageHeader">For Occasional Musical Offerings; I have more but 
                 they are vocal/piano and don't fit with the vibe</h1>
                 <Album coverArt={NeonPlanet} title="Neon Planet" trackList={neonPlanetTrackList}/>
-                <br/>
-                <Album coverArt={AAA} title="I'm not a real album" trackList={neonPlanetTrackList}/>
             </div>
         );
     }

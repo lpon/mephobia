@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/mephobia/precache-manifest.a4849f69d518359821264c0f45b7f6ad.js"
+  "/mephobia/precache-manifest.f8763a401dc0e6c047329d9fc7e8b478.js"
 );
 
 workbox.clientsClaim();

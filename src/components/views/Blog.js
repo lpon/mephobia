@@ -17,10 +17,6 @@ class Blog extends Component {
                 title={"(╯°□°）╯︵ ┻━┻ "}
                 date={"February 11, 2019"}
                 post={"My blog is ugly!!!!!"}/>
-                <BlogPost
-                title={"♥わあ！"}
-                date={"January 31, 2019"}
-                post={"すごいね!"}/>
             </div>
         );
     }
